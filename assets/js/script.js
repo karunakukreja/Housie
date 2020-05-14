@@ -29,7 +29,7 @@ $(document).ready(function () {
         7: "Dubai",
         8: "Kerela",
         9: "Nepal",
-        10: "Ahmdabad",
+        10: "Ahmedabad",
         11: "Nagpur",
         12: "London",
         13: "Mumbai",
