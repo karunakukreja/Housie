@@ -277,14 +277,7 @@ $(document).ready(function () {
                 res = aryKeyValue[i].split(":");
                 key = res[0];
                 value = res[1];
-                // console.log("KEY "+key);
-                if (key > 10) {
-
-                    rownum = ~~(key / 10);
-                } else {
-                    rownum = 0;
-                }
-                // console.log("rownum: "+rownum);
+                rownum = ~~(key / 10); //Math.floor
                 table.rows[rownum].cells["cell" + key].innerHTML = value + "<p class='text-centre d-block'>" + placesToNumbers[value] + "</p>";
             }
         }
